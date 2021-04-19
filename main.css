@@ -1,0 +1,134 @@
+/* global styling */
+
+body {
+    font-family: 'Libre Caslon Text', serif;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #C3E8E4;
+    transition: 0.3s background-color;
+}
+
+body.changeColor {
+    background-color: #E8686B;
+}
+
+section {
+    margin-bottom: 6em;
+    text-align: center;
+    margin: 4em 6em;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* top navigation */
+
+#logo {
+    margin-left: 1em;
+    font-size: 1.5em;
+    align-self: center;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 1em;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+/* intro section */
+
+span {
+    font-size: 6em;
+    text-align: left;
+}
+
+#intro-img {
+    margin: 1em;
+}
+
+
+/* projects */
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.project-sq {
+    text-align: center;
+    width: 30%;
+    margin: 1em;
+}
+
+.project-sq p {
+    text-align: left;
+}
+
+
+/* contact section */
+
+.contact p,
+#email {
+    font-size: 4em;
+    text-align: left;
+}
+
+#email {
+    text-decoration: none;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin: 3em;
+}
+
+/* scroll button */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #63829E; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: .7em; /* Some padding */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 1.2em; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
